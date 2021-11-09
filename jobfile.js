@@ -1,6 +1,7 @@
 const _ = require('lodash')
 
 const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/centipede'
+const ttl = parseInt(process.env.TTL) || (7 * 24 * 60 * 60)  // duration in seconds
 
 module.exports = {
   id: 'centipede',
@@ -115,6 +116,7 @@ module.exports = {
           clientPath: 'taskTemplate.client',
           collection: 'centipede-pings',
           indices: [
+            [{ time: 1 }, { expireAfterSeconds: ttl }], // days in s
             [{ time: 1, 'properties.id': 1 }, { unique: true }],
             { 'properties.ping': 1 },
             { geometry: '2dsphere' }
