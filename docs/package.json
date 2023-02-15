@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-theme-kalisio": "https://github.com/kalisio/vuepress-theme-kalisio#v0.1.0"
+  },
+  "dependencies": {}
+}
