@@ -1,6 +1,6 @@
 
 module.exports = {
-    base: '/centipede/',
+    base: '/k-centipede/',
     title: 'Centipède RTK',
     description: 'La collaboration au service de la précision',
     head: [
@@ -13,16 +13,16 @@ module.exports = {
     themeConfig: {
       docsDir: 'docs',
       nav: [
-        {text: 'A propos', link: '/01_A propos/introduction' },
-        {text: 'Fonctionnement', link: '/02_Fonctionnement/theorie' },
-        {text: 'Participer', link: '/03_Participer/base' },
-        {text: 'Applications', link: '/04_AktnMap/bgnss' },
+        {text: 'A propos', link: '/01_apropos/introduction' },
+        {text: 'Fonctionnement', link: '/02_fonctionnement/theorie' },
+        {text: 'Participer', link: '/03_participer/base' },
+        {text: 'Applications', link: '/04_aktnmap/bgnss' },
       ],
       sidebar: {
-        '/01_A propos/': getAProposSlidebar(),
-        '/02_Fonctionnement/': getFonctionnementSlidebar(),
-        '/04_AktnMap/': getAktnMapSlidebar(),
-        '/03_Participer/': getParticiperSlidebar(),
+        '/01_apropos/': getAProposSlidebar(),
+        '/02_fonctionnement/': getFonctionnementSlidebar(),
+        '/04_aktnmap/': getAktnMapSlidebar(),
+        '/03_participer/': getParticiperSlidebar(),
       }
     },
     plugins: [

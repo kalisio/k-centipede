@@ -2,7 +2,7 @@
 home: true
 heroImage: /centipede.png
 actionText: En savoir plus →
-actionLink: /01_A Propos/introduction
+actionLink: /01_apropos/introduction
 features:
 ---
 
