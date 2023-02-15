@@ -10,7 +10,6 @@ stages:
 - name: JOB
   if: commit_message !~ /(skip[ _-]job)/
 - name: DOC
-  if: commit_message =~ /\[build doc\]/
 
 jobs:
   include:
