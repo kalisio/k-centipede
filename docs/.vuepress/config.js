@@ -19,10 +19,10 @@ module.exports = {
         {text: 'Applications', link: '/04_aktnmap/bgnss' },
       ],
       sidebar: {
-        '/01_apropos/': getAProposSlidebar(),
-        '/02_fonctionnement/': getFonctionnementSlidebar(),
-        '/04_aktnmap/': getAktnMapSlidebar(),
-        '/03_participer/': getParticiperSlidebar(),
+        '/01_apropos/': getAProposSidebar(),
+        '/02_fonctionnement/': getFonctionnementSidebar(),
+        '/04_aktnmap/': getAktnMapSidebar(),
+        '/03_participer/': getParticiperSidebar(),
       }
     },
     plugins: [
@@ -38,28 +38,29 @@ module.exports = {
     ]
   }
   
-  function getAProposSlidebar(){
+  function getAProposSidebar(){
     return [
       'introduction',
       'histoire',
     ] 
   }
 
-  function getFonctionnementSlidebar(){
+  function getFonctionnementSidebar(){
     return [
       'theorie',
       'terrain',
+      'reseau',
     ]
   }
   
-  function getAktnMapSlidebar(){
+  function getAktnMapSidebar(){
     return [
       'bgnss',
       'tuto',
     ]
   }
 
-  function getParticiperSlidebar(){
+  function getParticiperSidebar(){
     return [
       'base',
       'rover',

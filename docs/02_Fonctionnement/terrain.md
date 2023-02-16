@@ -98,12 +98,3 @@ Cette dernière voie de communication est particulière car elle ne calcule pas 
 Son fonctionnement est simple : une fois la collecte des données effectuée, il faut les extraire de la base et du rover. Pour la base, vous utiliserez la plateforme RTKbase qui lui est propre.
 
 Ensuite, il vous faut convertir ces fichiers au format RINEX, et les traiter à l’aide du logiciel open-source RTKLIB. Toutes les étapes de la procédures sont expliquées ici, sur le site du [projet Centipède](https://docs.centipede.fr/docs/ppk/).
-
-## L’organisation du réseau Centipède RTK
-
-<img src="../assets/schema_reseau_RTK.jpg" 
-        alt="Impossible de visualiser le contenu" 
-        style="display: block; margin: 0 auto" />
-
-***<center> Schéma récapitulatif de l’organisation du réseau Centipède RTK </center>***
-*Sont visibles les appareils structurants, leurs voies de communication, les formats des données, les protocoles de communication utilisés et les étapes pour atteindre le positionnement centimétrique*
