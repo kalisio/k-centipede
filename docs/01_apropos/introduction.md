@@ -8,5 +8,3 @@ En intégrant le projet régional Kassandre, l’entreprise Kalisio s’est enga
 - Exploiter la position centimétrique offerte par la technologie RTK au travers de ses outils technologiques (Kano et Akt’n’map).
 
 Ce site vous aidera à comprendre les enjeux du réseau Centipède RTK, son fonctionnement et les opportunités qu’il représente pour l’entreprise Kalisio.
-
-<kano token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIn0.2oFJhEv306tbkZfzM1tTfFPFjjs5nVu3DWjo5OvGrFc" />
