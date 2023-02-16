@@ -30,4 +30,4 @@ L’objectif du projet Centipède RTK est de rendre accessible à tous la techno
 - Des plateformes d’interprétation et de visualisation des signaux RTK (RTKGPS+, RTKLIB);
 - Un serveur public de collecte et de transmission des données géographiques des bases RTK.
 
-Tous ces outils sont **open-source**. Ils sont la clé du succès du projet Centipède RTK, qui compte aujourd’hui plus de 350 bases sur le territoire. 
+Tous ces outils sont **open-source**. Ils sont la clé du succès du projet Centipède RTK. 

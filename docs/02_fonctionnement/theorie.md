@@ -37,8 +37,8 @@ On parle même d’une **double différence**, car la communication est établie
 <img src="../assets/dble_diff.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />  
-***<center> Principe de la double différence utilisée pour le positionnement RTK </center>***
-*La base RTK et le récepteur mobile communiquent simultanément entre eux et avec 2 satellites afin de rectifier les erreurs d’horloges (ENSG, 2013).*
+***<center> Principe de la double différence utilisée pour le positionnement RTK ([ENSG, 2013](http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf)) </center>***
+*La base RTK et le récepteur mobile communiquent simultanément entre eux et avec 2 satellites afin de rectifier les erreurs d’horloges.*
 
 ## Les retards à la propagation
 Les retards à la propagation $\tau$ sont liés aux conditions atmosphériques, notamment dans la troposphère et l'ionosphère. Les signaux peuvent être ralentis, engendrant une imprécision de mesure. 

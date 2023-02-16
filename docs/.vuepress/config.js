@@ -4,11 +4,8 @@ module.exports = {
     title: 'Centipède RTK',
     description: 'La collaboration au service de la précision',
     head: [
-      ['link', {rel:'icon', type: "image/png", sizes: "16x16", href: '../assets/centipede_01.png'}],
-      //['link', {rel: 'icon', href: '/public/centipede_01.png'}],
-      //['link', { rel: 'manifest', href: '/manifest.json' }],
-      //['link', { rel: "stylesheet", href: "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" }]
-    ],
+      ['link', {rel:'icon', type: "image/png", sizes: "32x32", href: 'centipede_icon.png'}],
+      ],
     theme: 'kalisio',
     themeConfig: {
       docsDir: 'docs',
