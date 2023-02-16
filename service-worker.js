@@ -26,44 +26,44 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "01_apropos_/histoire.html",
-    "revision": "99501552b28bd5f385252acf740a8f78"
+    "url": "01_apropos/histoire.html",
+    "revision": "1f9c427dfb513f14d481175f7db4d362"
   },
   {
-    "url": "01_apropos_/introduction.html",
-    "revision": "22239834c2b2e6854c707ed7d44eb50e"
+    "url": "01_apropos/introduction.html",
+    "revision": "58322fbf54c51b3732cd934000a00410"
   },
   {
-    "url": "02_fonctionnement_/reseau.html",
-    "revision": "822a31dfac53bc1088de7407d7620529"
+    "url": "02_fonctionnement/reseau.html",
+    "revision": "59fa381242ddb25ba5dcce5757e3155e"
   },
   {
-    "url": "02_fonctionnement_/terrain.html",
-    "revision": "c4543a7afa3e269650fb9f6d0dea1288"
+    "url": "02_fonctionnement/terrain.html",
+    "revision": "45488366a76e38ff285cc952d39d1749"
   },
   {
-    "url": "02_fonctionnement_/theorie.html",
-    "revision": "61d177654b49750af90eff277c7ef212"
+    "url": "02_fonctionnement/theorie.html",
+    "revision": "7f81ce2e205410ba8847e4e756dfd703"
   },
   {
-    "url": "03_participer_/base.html",
-    "revision": "cb3b6a7cef861976931d97ad5b1feea1"
+    "url": "03_participer/base.html",
+    "revision": "1f3e70f75d70bf4c732b661f9993d665"
   },
   {
-    "url": "03_participer_/rover.html",
-    "revision": "39a63b9d11497a9cb2b3ea50ddc46b53"
+    "url": "03_participer/rover.html",
+    "revision": "b36596f3a91da2d8763c6c84c29825d9"
   },
   {
-    "url": "04_aktnmap_/bgnss.html",
-    "revision": "24c6ebe564c248b45298277c2043614f"
+    "url": "04_aktnmap/bgnss.html",
+    "revision": "11ee69ad7f46269ace17115972ceb275"
   },
   {
-    "url": "04_aktnmap_/tuto.html",
-    "revision": "293beef251b89a78ec08adaee6f307b9"
+    "url": "04_aktnmap/tuto.html",
+    "revision": "f7adc0865874ce19ca7b3f6b4feb3c04"
   },
   {
     "url": "404.html",
-    "revision": "55f2a0fd4d22e193b2a2e81149ccc9f1"
+    "revision": "08f011741a1e8db35c7ba3fe21e773e4"
   },
   {
     "url": "assets/css/0.styles.1ad307a8.css",
@@ -158,11 +158,11 @@ self.__precacheManifest = [
     "revision": "fce12549a2c897f33858cd1efcc15f7b"
   },
   {
-    "url": "assets/js/12.fd82dae3.js",
+    "url": "assets/js/12.2a06b74f.js",
     "revision": "540cabbdfbaa1b772b09d3125f2da682"
   },
   {
-    "url": "assets/js/13.d1c984f9.js",
+    "url": "assets/js/13.aae66b72.js",
     "revision": "9ee3f6f6be6c539acbcd5bb8261c0a7d"
   },
   {
@@ -174,19 +174,19 @@ self.__precacheManifest = [
     "revision": "f0e4d07cc3e21fb802b08dd670eb0122"
   },
   {
-    "url": "assets/js/16.bc629fc5.js",
+    "url": "assets/js/16.913fc8ee.js",
     "revision": "a722743fe458b85d8aafd402015a5a05"
   },
   {
-    "url": "assets/js/17.ecba70d8.js",
+    "url": "assets/js/17.7b5fa6a5.js",
     "revision": "6434604c59dc42f6bb4d519b45b7dfca"
   },
   {
-    "url": "assets/js/18.f5789fdf.js",
+    "url": "assets/js/18.4f3eb7e7.js",
     "revision": "cc299bd1e9da1b1b8b4d5cfdb820f687"
   },
   {
-    "url": "assets/js/19.3b408cc1.js",
+    "url": "assets/js/19.d65d127b.js",
     "revision": "33776a99c36b59c9d0c66f2065baa729"
   },
   {
@@ -214,15 +214,15 @@ self.__precacheManifest = [
     "revision": "ac97e6e4eb6fb8516cf21662d5d3191e"
   },
   {
-    "url": "assets/js/4.50b5809b.js",
+    "url": "assets/js/4.fdcb6aa1.js",
     "revision": "6c2a43fea1ba986c615870ea38a0f5dd"
   },
   {
-    "url": "assets/js/5.aa1cac38.js",
+    "url": "assets/js/5.7a5f97dd.js",
     "revision": "84e111b81a9d85e1f0fd39edc3a2a5bb"
   },
   {
-    "url": "assets/js/6.71128114.js",
+    "url": "assets/js/6.681e1207.js",
     "revision": "9e7131ecb691237c58cb9a8774efa069"
   },
   {
@@ -238,8 +238,8 @@ self.__precacheManifest = [
     "revision": "11be0dd954d3acfbec0a9446343e7951"
   },
   {
-    "url": "assets/js/app.76724b7d.js",
-    "revision": "08ae5deab516f0a1b7b88fa25b66c5bd"
+    "url": "assets/js/app.537458c0.js",
+    "revision": "a734130ffdd5df5e189e3a2619215265"
   },
   {
     "url": "centipede.png",
@@ -247,7 +247,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1295b13dd328be44e3c4c95f380de77a"
+    "revision": "cc9c83069eabfaa67b4550b5d7647fc7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
