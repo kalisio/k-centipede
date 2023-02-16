@@ -13,16 +13,16 @@ module.exports = {
     themeConfig: {
       docsDir: 'docs',
       nav: [
-        {text: 'A propos', link: '/01_apropos/introduction' },
-        {text: 'Fonctionnement', link: '/02_fonctionnement/theorie' },
-        {text: 'Participer', link: '/03_participer/base' },
-        {text: 'Applications', link: '/04_aktnmap/bgnss' },
+        {text: 'A propos', link: '/01_apropos_/introduction' },
+        {text: 'Fonctionnement', link: '/02_fonctionnement_/theorie' },
+        {text: 'Participer', link: '/03_participer_/base' },
+        {text: 'Applications', link: '/04_aktnmap_/bgnss' },
       ],
       sidebar: {
-        '/01_apropos/': getAProposSidebar(),
-        '/02_fonctionnement/': getFonctionnementSidebar(),
-        '/03_participer/': getParticiperSidebar(),
-        '/04_aktnmap/': getAktnMapSidebar(),
+        '/01_apropos_/': getAProposSidebar(),
+        '/02_fonctionnement_/': getFonctionnementSidebar(),
+        '/03_participer_/': getParticiperSidebar(),
+        '/04_aktnmap_/': getAktnMapSidebar(),
       }
     },
     plugins: [
