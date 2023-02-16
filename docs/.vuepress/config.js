@@ -21,8 +21,8 @@ module.exports = {
       sidebar: {
         '/01_apropos/': getAProposSidebar(),
         '/02_fonctionnement/': getFonctionnementSidebar(),
-        '/04_aktnmap/': getAktnMapSidebar(),
         '/03_participer/': getParticiperSidebar(),
+        '/04_aktnmap/': getAktnMapSidebar(),
       }
     },
     plugins: [
