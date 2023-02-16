@@ -5,7 +5,7 @@ module.exports = {
     description: 'La collaboration au service de la précision',
     head: [
       ['link', {rel:'icon', type: "image/png", sizes: "32x32", href: 'centipede_icon.png'}],
-      ],
+    ],
     theme: 'kalisio',
     themeConfig: {
       docsDir: 'docs',
