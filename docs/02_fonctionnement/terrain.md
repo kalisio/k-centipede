@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Sur le terrain
 ## Les appareils structurants
 ### Les Bases RTK

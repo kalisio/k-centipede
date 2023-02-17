@@ -6,6 +6,10 @@ Utiliser directement le positionnement RTK sur l’application *Akt’n’Map* e
 
 L’application open-source *Bluetooth GNSS* en est parfaitement capable. Elle est disponible pour tous les appareils Android. Malheureusment, il n’existe pas d’application de ce type pour les appareils IOS, pour qui la localisation RTK n’est donc pas accessible.
 
+::: tip Remarque
+*Bluetooth GNSS* est une solution open-source. Le code est consultable sur [GitHub](https://github.com/ykasidit/bluetooth_gnss).
+:::
+
 *Bluetooth GNSS*, par la fonctionnalité “localisation fictive” (“mock-location”), peut contourner la localisation interne à l’appareil. Pour activer cette option, il faudra fouiller dans les options développeur de l’appareil.
 
-Enfin, *Bluetooth GNSS* est aussi un client NTRIP, capable de se connecter au caster Centipède et de transmettre au rover par bluetooth les informations d’une base.
+*Bluetooth GNSS* est aussi un client NTRIP, capable de se connecter au caster Centipède et de transmettre au rover par bluetooth les informations d’une base.
