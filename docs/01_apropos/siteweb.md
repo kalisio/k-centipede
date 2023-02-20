@@ -1,6 +1,6 @@
 # La création du site web
 
-La création de ce site web a d'abord commencé par un travail de rédaction des scripts Markdown en local, en suivant le protocole explicité sur le schéma ci-dessous :
+La création de ce site web a d'abord commencé par un travail de rédaction des scripts Markdown en local, en suivant le protocole ci-dessous :
 <center><mermaid> 
 flowchart TB
     subgraph ConEmu
@@ -13,7 +13,7 @@ flowchart TB
 </mermaid></center>
 
 
-Une fois les scripts Markdown prêts, j'ai mis en ligne le site selon la démarche décrite sur le schéma suivant.
+Une fois les scripts Markdown prêts, j'ai mis en ligne le site selon la démarche suivante :
 
 <center><mermaid> 
 flowchart TB

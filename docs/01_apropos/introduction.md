@@ -1,7 +1,7 @@
 # Introduction
-Lancé en 2019 par l’INRAE, le réseau collaboratif Centipède RTK est un outil stratégique de développement cartographique pour les institutions publiques et les entreprises. 
+Lancé en 2019 par l’INRAE, le réseau collaboratif Centipède RTK est un outil cartographique de précision open-source. 
 
-Il offre la possibilité aux particuliers comme aux professionnels de profiter d’une **précision centimétrique** à moindre coût, à condition de posséder les équipements nécessaires à l’interprétation des signaux RTK. 
+Il offre la possibilité aux particuliers comme aux professionnels de profiter d’un **positionnement centimétrique** à moindre coût. 
 
 Le réseau, en plein expansion, compte déja plus de 350 antennes sur tout le territoire !
 
@@ -10,7 +10,7 @@ Le réseau, en plein expansion, compte déja plus de 350 antennes sur tout le te
 Ce site vous aidera à comprendre les enjeux du réseau Centipède RTK, son fonctionnement et les opportunités qu’il représente pour l’entreprise Kalisio.
 
 ::: tip Le projet Kassandre
-Ces travaux s'inscrivent dans le cadre du projet régional [Kassandre](https://kalisio.com/blog/9-kalisio-fr/84-ad-occ-accompagnera-kalisio-sur-son-ambitieux-programme-r-d), soutenu par l'Agence de Développement Economique de la Région Occitanie ([AD'OCC](https://www.agence-adocc.com/).
+Ces travaux s'inscrivent dans le cadre du projet régional [Kassandre](https://kalisio.com/blog/9-kalisio-fr/84-ad-occ-accompagnera-kalisio-sur-son-ambitieux-programme-r-d), soutenu par l'Agence de Développement Economique de la Région Occitanie ([AD'OCC](https://www.agence-adocc.com/)).
 
 <img src='../assets/adocc.jpg' 
         alt="Impossible de visualiser le contenu"
