@@ -15,7 +15,9 @@ Ensuite, suivez le [tuto pour assembler votre base](http://rtkbase.eu/assemblage
 
 - Lorsqu'on insère les pièces bleues sur le couvercle, il faut bien les pousser jusqu'à entendre un "clic". Ensuite on peut poser le couvercle, et tourner ces pièces à l'aide d'un gros tournevis plat.
 
-- **Attention au sélecteur de tension de l'extracteur POE Trendnet TPE-104GS. Il doit être placé sur 5 Volts**. Au-dessus de 5V, on grille les composants.
+:: danger ATTENTION 
+Le sélecteur de tension de l'extracteur POE Trendnet TPE-104GS doit être placé sur 5 Volts**. Au-dessus de 5V, on grille les composants.
+:::
 
 
 <img src="../assets/base_01.jpg" 
@@ -28,7 +30,7 @@ Pour fonctionner, il faut configurer les différents modules de la base. Tout es
 
 ## Choix de l'emplacement
 Les facteurs suivants doivent être pris en compte:
-- Emplacement du site : position très stable
+- Position très stable
 - Privilégier sur un mur robuste (béton, porteur si possible) et ancien (plus de 5 ans)
 - Veiller à ce que le support soit bien plan (niveau à bulles à utiliser) 
 - Privilégier un mât en acier inoxydable (pas d'alu); 
@@ -43,7 +45,7 @@ Les facteurs suivants doivent être pris en compte:
 
 - Aligner l'antenne avec le Nord;
 - Éviter la proximité avec des sources de radiofréquences. Si impossible, à renseigner dans le registre du site;
-Alimentation électrique et moyens de communication à proximité  (accès à Internet via un câble ethernet).
+- Alimentation électrique et moyens de communication à proximité  (accès à Internet via un câble ethernet).
 
 <img src="../assets/base_03.jpg" 
         alt="Impossible de visualiser le contenu" 

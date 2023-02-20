@@ -3,10 +3,10 @@
 ***<center> Les 5 étapes pour faire fonctionner Bluetooth GNSS sur votre smartphone Android </center>***
 
 ## Vérifier les prérequis
-Pour fonctionner et remplir ses missions, Bluetooth GNSS a besoin de quelques prérequis. Vous devez donc aller fouiller dans les paramètres de votre appareil pour :
-- Activer le Bluetooth et choisir un appareil
-- Activer la localisation de haute précision (paramètres localisation)
-- Sélectionner Bluetooth GNSS comme application de localisation fictive (paramètres développeur)
+Pour fonctionner et remplir ses missions, Bluetooth GNSS a besoin de quelques prérequis. Vous devez donc fouiller dans les paramètres de votre appareil pour :
+- Activer le Bluetooth et vous appairer au rover;
+- Activer la localisation de haute précision (paramètres localisation);
+- Sélectionner Bluetooth GNSS comme application de localisation fictive (paramètres développeur).
 
 <img src="../assets/BTG_02.png" 
         alt="Impossible de visualiser le contenu" 
@@ -15,7 +15,7 @@ Pour fonctionner et remplir ses missions, Bluetooth GNSS a besoin de quelques pr
 Une fois tous ces paramètres vérifiés, vous devez préparer la connexion au rover.
 
 ## Sélectionner le rover
-Pour préparer la liaison avec le rover, vous devez le sélectionner en amont de la connexion. Rendez-vous dans les paramètres de l’applications en cliquand sur l’engrenage blanc en haut à gauche de l’écran d’acceuil.
+Pour préparer la liaison avec le rover, vous devez le sélectionner en amont de la connexion. Rendez-vous dans les paramètres de l’applications en cliquand sur l’engrenage blanc en haut à gauche de l’écran d’accueil.
 
 <img src="../assets/BTG_03.png" 
         alt="Impossible de visualiser le contenu" 
@@ -27,7 +27,9 @@ Une fois la page des paramètres ouverte, cliquez sur “Select…” dans la ca
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
-**Important** : pensez à appairer votre smartphone et votre rover avant la manipulation.
+::: tip Remarque
+Pensez à appairer votre smartphone et votre rover avant la manipulation.
+:::
 
 Si vous avez bien réalisé la manipulation, le nom de votre rover est visible sur la page des paramètres. S’il ne l’est pas, recommencez la manœuvre !
 
@@ -42,7 +44,7 @@ Rendez-vous dans les paramètres de l’application, et faites défiler la page 
 - Host : caster.centipede.fr
 - Stream (mount-point) : entrez le nom de la base RTK la plus proche. Deux possibilités s’offrent à vous pour sélectionner la bonne base :
     - Entrer manuellement le nom de la base RTK en fonctionnement la plus proche en se référant au site du [projet Centipède](https://docs.centipede.fr/) ;
-    - Cliquer sur “List streams from above server” et sélectionner la première base de la liste, qui est celle la plus proche de votre position selon vos données de localisation de votre téléphone.
+    - Cliquer sur “List streams from above server” et sélectionner la première base de la liste, qui est celle la plus proche de votre position selon les données de localisation de votre téléphone.
 - Port : 2101
 - User : centipede
 - Password : centipede
@@ -59,7 +61,7 @@ Une fois toutes les informations de la bases fournies, retournez sur l’écran 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
-S’il est inscrit “No”, alors vérifiez bien les informations que vous avez saisies pour votre base !
+S’il est inscrit “No”, alors vérifiez bien les informations que vous avez saisies pour votre base.
 
 ## Localisation centimétrique
 Une fois toutes ces étapes réalisées, connectez vous à votre rover en pressant sur le bouton bleu en bas à droite.
@@ -68,7 +70,7 @@ Une fois toutes ces étapes réalisées, connectez vous à votre rover en pressa
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
-Patientez quelques secondes le temps de l’initialisation, et lorsque des coordonnées apparaissent à l’écran, c’est que vous avez réussi !
+Patientez quelques secondes le temps de l’initialisation. Des coordonnées apparaissent à l’écran ? Vous avez réussi !
 
 <img src="../assets/BTG_09.png" 
         alt="Impossible de visualiser le contenu" 

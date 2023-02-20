@@ -21,7 +21,7 @@ Le réseau RTK français repose sur 4 systèmes de naviguation internationaux.
 
 | Système de naviguation | Pays | Mise en service | 
 | :---------------: |:---------------:|:---------------:|
-| GPS (*Global Positioning System*) | <img src="../assets/USA.png" height="15" alt="USA"> | 1995 |
+| GPS (*Global Positioning System*) | <img src="../assets/USA.png" height="12" alt="USA"> | 1995 |
 | GLONASS | <img src="../assets/Russie.jpg" height="15" alt="Russie"> | 1996, puis 2010 |
 | Galileo |<img src="../assets/UE.png" height="15" alt="Europe"> | 2016 |
 | Beidou | <img src="../assets/Chine.png" height="15" alt="Chine"> | 2020 |

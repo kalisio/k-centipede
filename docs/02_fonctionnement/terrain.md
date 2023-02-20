@@ -27,15 +27,17 @@ Les appareils clients (smartphones, ordinateurs, console de tracteur, récepteur
 Certains appareils clients (smartphones, ordinateurs, consoles de tracteurs) ont aussi la possibilité de visualiser la position centimétrique calculée par le rover.
 
 ### Le caster Centipède
-Le caster Centipède est un serveur public où sont archivées en continu les informations des bases du réseau RTK, avec qui il communique par internet.
+Le caster Centipède est un serveur public où sont archivées en continu les informations des bases du réseau RTK, avec qui elles communiquent par internet.
 
 Ces informations sont ensuite transmises aux appareils clients qui se connectent par internet au caster pour corriger la position des Rovers liés.
 
 Toutes les données transitant par le caster public Centipède sont transmises au format RTCM.3 en suivant le protocole NTRIP.
 
-### Les clients NTRIP
+::: tip Définition NTRIP
 > “Le transport en réseau des trames RTCM via le protocole Internet (NTRIP) est un protocole permettant de diffuser des données GPS différentielles (DGPS) sur Internet conformément à la spécification publiée par RTCM” ([CGEOS, 2023](https://cgeosbe.weebly.com/ntrip.html)).
+:::
 
+### Les clients NTRIP
 Les clients NTRIP sont des logiciels et applications capables de communiquer avec un caster NTRIP (comme le caster Centipède), afin d’obtenir la liste des bases RTK disponibles, et d’en extraire leurs informations (coordonnées, observations de phase, décodage onde porteuse).
 
 *RTKLIB* sur ordinateur et *Bluetooth GPS* sur smartphone sont les clients NTRIP open-source les plus utilisés. 
@@ -57,9 +59,9 @@ Je vous conseille donc d'utiliser *Bluetooth GNSS*, qui est moins complète mais
 
 Dans un premier temps, la base RTK envoie ses informations (coordonnées, observation de phase et décodage de l’onde porteuse) au caster Centipède par internet.
 
-Ces informations sont ensuite transmises à un appareil client (smartphone, ordinateur, console de tracteur, etc.) connecté au caster Centipède grâce à un client NTRIP. L'appareil client les envoie enfin au Rover.
+Ces informations sont ensuite transmises à un appareil client (smartphone, ordinateur, console de tracteur, etc.) connecté au caster Centipède grâce à un client NTRIP, qui les envoie enfin au Rover par Bluetooth ou port serie.
 
-Une fois les informations de la base RTK reçues, le Rover corrige sa localisation par double calculs différentiels et par levée algorithmique des ambiguïtés de phase. Il re-transmet ensuite cette nouvelle localisation précise à l’appareil client.
+Une fois les informations de la base RTK reçues, le Rover corrige sa localisation par doubles calculs différentiels et par levée algorithmique des ambiguïtés de phase. Il re-transmet ensuite cette nouvelle localisation précise à l’appareil client.
 
 ::: warning Attention
 Les appareils clients doivent être spécifiquement connectés à la base RTK la plus proche du Rover. Pour la trouver, il suffit de faire un détour par le carte intéractie du projet [Centipède](https://centipede.fr/index.php/view/map/?repository=cent&project=evolution), où vous trouverez toutes les bases actives proches de votre position.
@@ -75,7 +77,7 @@ Le format de la position corrigée envoyée par le rover peut être modulé. Dan
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
-En cas de dysfonctionnement du caster public Centipède ou d’une impossibilité de connexion à celui-ci (cas de certains pays étrangers), certaines bases RTK sont capables d'héberger un caster local. Elles y archivent les informations nécessaires à la localisation des rovers environnants.
+En cas de dysfonctionnement du caster public Centipède ou d’une impossibilité de connexion à celui-ci (souvent à l'étranger), certaines bases RTK sont capables d'héberger un caster local. Elles y archivent les informations nécessaires à la localisation des rovers environnants.
 
 Grâce à un client NTRIP, un appareil client se connecte au caster local et y extrait les données nécessaires au positionnement centimétrique. Ces informations sont transmises par l'appareil client au rover, généralament par port série ou par bluetooth.
 
@@ -89,7 +91,7 @@ Grâce à un client NTRIP, un appareil client se connecte au caster local et y e
 
 Lorsque le caster Centipède n’est pas disponible et que la base n’a pas la possibilité d’héberger un caster localement, cette troisième voie de communication prend tout son sens. 
 
-Elle permet de transférer les données RTCM.3 à un appareil client en suivant les protocoles radio ou TCP. Ensuite, les informations sont transmises au rover qui re-calcule sa position et renvoie son positionnement précis aux appareils clients.
+Elle permet de transférer directement les données de la base au format RTCM.3 à un appareil client en suivant les protocoles radio ou TCP. Ensuite, les informations sont transmises au rover qui re-calcule sa position et renvoie son positionnement précis aux appareils clients.
 
 ### PostProcessing Kinematic (PPK)
 
