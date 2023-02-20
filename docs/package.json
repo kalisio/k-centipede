@@ -9,5 +9,7 @@
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-theme-kalisio": "https://github.com/kalisio/vuepress-theme-kalisio#v0.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "mermaid.cli": "^0.5.1"
+  }
 }
