@@ -1,10 +1,10 @@
 # La théorie
 ## Le calcul du déphasage
-Le positionnement RTK se fonde sur le calcul du **déphasage**  entre le signal envoyé  par le satellite $\j$ et le signal reçu par le récepteur $\i$, selon la formule ci dessous :
+Le positionnement RTK se fonde sur le calcul du **déphasage**  entre le signal envoyé  par le satellite $\ j$ et le signal reçu par le récepteur $\ i$, selon la formule ci dessous :
 
 $$l_i^j(t_r)=\lambda\Delta\varphi_i^j(t_r)=r_i^j(t_e,t_r)+c(\delta t_i-\delta t^j)+\tau_i^j(t_e,t_r)-\lambda N_i^j(t_r)+\varepsilon_i^j(t_r)$$
 
-Où $\l$ est la distance séparant le satellite et le récepteur, obtenu en multipliant le déphasage par la longueur d’onde du signal $\lambda$.
+Où $\ l$ est la distance séparant le satellite et le récepteur, obtenu en multipliant le déphasage par la longueur d’onde du signal $\lambda$.
 
 La mesure du déphasage est cependant entachée d’**incertitudes**. 
 
@@ -15,11 +15,11 @@ Les ondes utilisées pour la mesure sont électromagnétiques. Leur célérité 
 La précision de la mesure est donc primordiale. Le positionnement RTK s’appuie sur de multiples outils mathématiques pour limiter les **biais** des mesures, et ainsi atteindre la meilleure précision possible.
 
 ## La distance géométrique
-La distance géométrique $\r$ est la distance séparant la position du satellite $\j$ à l’instant d’émission du signal $\t_e$ et celle du récepteur $\i$ à l’instant de réception $\t_r$. 
+La distance géométrique $\ r$ est la distance séparant la position du satellite $\ j$ à l’instant d’émission du signal $\ t_e$ et celle du récepteur $\ i$ à l’instant de réception $\ t_r$. 
 
-Les coordonnées $\(x^j(t_e),y^j(t_e),z^j(t_e))$ du satellite à l’instant d’émission du signal  sont connues. 
+Les coordonnées $\ (x^j(t_e),y^j(t_e),z^j(t_e))$ du satellite à l’instant d’émission du signal  sont connues. 
 
-Les coordonnées $\(x_i(t_r),y_i(t_r),z_i(t_r))$ du récepteur à l'instant de réception sont inconnues
+Les coordonnées $\ (x_i(t_r),y_i(t_r),z_i(t_r))$ du récepteur à l'instant de réception sont inconnues
 
 La distance géométrique $\ r$ est définie par :
 
@@ -46,7 +46,7 @@ Les retards à la propagation $\tau$ sont liés aux conditions atmosphériques, 
 Les retards à la propagation sont estimés par calcul, et considérablement réduits dans le cas de positionnement différentiel avec une ligne de base (distance base - récepteur) inférieure à 50 kilomètres. Le positonnement double différentiel avec une ligne de base inférieure à 50 kilomètres, utilisé pour RTK, est donc très peu impacté par les retards à la propagation.
 
 ## La levée algorithmique des ambiguïtés
-L'ambiguïté entière $\N$ ou ambiguïté de la mesure de phase, est une notion complexe liée au déphasage. 
+L'ambiguïté entière $\ N$ ou ambiguïté de la mesure de phase, est une notion complexe liée au déphasage. 
 
 Pour la résoudre, les appareils de réception font appel à des algorithmes de résolution rapide nommés AROF (*Ambiguity 
 Resolution On the Fly*).
