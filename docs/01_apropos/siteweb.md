@@ -65,6 +65,8 @@ flowchart LR
     D2-->|deploy|E
 </mermaid></center>
 
+Ce second schéma représente le fonctionnement détaillé du logiciel *Travis* dans le cas du projet k-centipede porté par Kalisio :
+
 <center><mermaid>
 flowchart LR
     subgraph A [TRAVIS]
