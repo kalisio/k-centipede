@@ -40,7 +40,7 @@ flowchart TB
 
 <center><mermaid> 
 flowchart LR
-    %% OUTILS %%
+    %%%%% OUTILS %%%%%
     subgraph A [USER]
         S([Script MarkDown])
     end
@@ -57,7 +57,7 @@ flowchart LR
     subgraph E [GITHUB PAGES]
         H[(HTML files)]
     end
-    %% ACTIONS %%
+    %%%%% ACTIONS %%%%%
     S-->|commit|S
     A-->|push|B
     B---->|trigger|J
