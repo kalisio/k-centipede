@@ -3,7 +3,7 @@ Lancé en 2019 par l’INRAE, le réseau collaboratif Centipède RTK est un outi
 
 Il offre la possibilité aux particuliers comme aux professionnels de profiter d’un **positionnement centimétrique** à moindre coût. 
 
-Le réseau, en plein expansion, compte déja plus de 350 antennes sur tout le territoire !
+Le réseau, en pleine expansion, compte déja plus de 350 antennes sur tout le territoire !
 
 <kano token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIn0.2oFJhEv306tbkZfzM1tTfFPFjjs5nVu3DWjo5OvGrFc" />
 
