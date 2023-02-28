@@ -29,12 +29,12 @@ A noter que les branchements entre le F9P et le module HC05 ne sont pas faits au
 
 <center>
 
-| Branchement côté F9P | Branchement côté HC05 | 
-| :---------------: |:---------------:|
-| RX | TX |
-| TX | RX |
-| 5V | VCC |
-| GND | GND |
+| Branchement côté F9P |->| Branchement côté HC05 | 
+| :---------------: |:---------------:|:---------------:|
+| RX |->| TX |
+| TX |->| RX |
+| 5V |->| VCC |
+| GND |->| GND |
 
 </center>
 
