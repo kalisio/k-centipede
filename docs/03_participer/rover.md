@@ -28,12 +28,14 @@ Pour assembler votre rover, [suivez ces instructions](https://docs.centipede.fr/
 A noter que les branchements entre le F9P et le module HC05 ne sont pas faits au hasard. Le module hc05 doit être relié au port ***VART1*** de la puce F9P en respectant les branchements suivants :
 
 <center>
+
 | Branchement côté F9P | Branchement côté HC05 | 
 | :---------------: |:---------------:|
 | RX | TX |
 | TX | RX |
 | 5V | VCC |
 | GND | GND |
+
 </center>
 
 ::: warning 
