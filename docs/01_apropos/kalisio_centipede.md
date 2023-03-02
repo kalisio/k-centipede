@@ -6,6 +6,7 @@ sidebarDepth: 3
 ### Les bases du webmapping
 ::: tip Définition Webmapping 
 Correspond à la diffusion de données cartographiques par le biais d'un site web. Les informations affichées sont la réponse de requêtes clientes : on parle d'affichage dynamique.
+:::
 
 #### L'architecture d'une solution webmapping
 Une solution webmapping s'articule atour de 3 piliers :
@@ -40,7 +41,7 @@ Selon la nature de la requête, la ressource peut aussi être stockée dans une 
 #### Interopérabilité et normes OGC
 Les solutions webmapping font appel à de multiples serveurs géographiques. Pour garantir l'**interopérabilité** des données et services géographiques, l'Open Geospatial Consortium (OGC) a déceloppé des standarts de communicaction, de formatage et d'échange.
 
-##### WMS
+::: details WMS
 Les services WMS (Web Map Service) permettent de mettre à disposition d’utilisateurs des **images géoréférencées**, via une simple requête HTTP, à partir de données sources raster (image) ou vecteur.
 
 Les services WMS **calculent les images** demandées selon divers paramètres fournis dans la requête.
@@ -49,8 +50,9 @@ Les services WMS se composent de 3 requêtes :
 - *GetCapabilities* : renvoie les paramètres du service et les couches (une couche WMS correspond à une ressource) disponibles avec les informations permettant de paramétrer les requêtes suivantes ;
 - *GetMap* : renvoie une image de la carte ;
 - *GetFeatureInfo* : renvoie des informations sur les objets ayant servi à générer la carte (optionnelle).
+:::
 
-##### WMTS
+:: details WMTS
 Les services d’images tuilées permettent de mettre à disposition d’utilisateurs distants des images géoréférencées, via une simple requête HTTP.
 
 Ils mettent en œuvre le protocole WMTS (Web Map Tile Service).
@@ -61,15 +63,19 @@ Le cache d’images repose sur un maillage rectangulaire régulier de la zone co
 Chaque type de donnée servie (Orthoimagerie, cartes, …) nécessite ainsi le pré-calcul d’une telle cache dans une projection donnée, hébergée sur l’infrastructure Géoportail.
 
 Pour obtenir une image, une requête WMTS comporte donc des paramètres précisant : le type de données (LAYER), la pyramide de tuiles (TILEMATRIXSET) et le maillage (TILEMATRIX) correspondant au niveau de zoom voulu et les coordonnées de la tuile dans ce maillage (TILECOL et TILEROW). ([IGN, 2023](https://geoservices.ign.fr/documentation/services/api-et-services-ogc#2430))
+:::
 
-##### WCS
+:: details WCS
 Le Web Coverage Service (WCS) est un service d'échanges de données raster complexes. Les données WCS sont souvent utilisées dans le cadre de modélisations, qui font appel à des données raster plus complètes que celles transportées grâce aux services WMS. 
+:::
 
-##### WFS
+:: details WFS
 Le service WFS permet aux utilisateurs de télécharger des données vectorielles géoréférencées.
+:::
 
-##### CSW
+:: details CSW
 Le service CSW du Géoportail permet d’interroger des catalogues de données.
+:::
 
 ### Kano et Centipède
 L'architecture de la solution webmapping Kano est articulée autour de 2 systèmes de requêtes imbriqués l'un dans l'autre, avec un point de croisement : le gestionnaire de bases de données MongoDB.
