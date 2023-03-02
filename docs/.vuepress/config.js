@@ -39,7 +39,7 @@ module.exports = {
     return [
       'introduction',
       'histoire',
-      'siteweb',
+      'kalisio_centipede',
     ] 
   }
 

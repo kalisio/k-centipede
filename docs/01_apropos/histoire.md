@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 3
 ---
-# Un peu d'histoire...
+# GNSS, RTK  et Centipède : Un peu d'histoire...
 ## Définition
 > “La Cinématique temps réel (Real Time Kinematic, en anglais ou RTK) est une technique de positionnement par satellite basée sur l'utilisation de mesures de la phase des ondes porteuses des signaux émis par les systèmes GPS, GLONASS ou Galileo. Une station de référence fournit des corrections en temps réel permettant d'atteindre une précision de l'ordre du centimètre” ([Wikipédia, 2023](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el)).
 
