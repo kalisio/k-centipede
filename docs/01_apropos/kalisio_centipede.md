@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 # Kalisio et le projet Centipède
-## Centipède et la solution de webmapping *Kano*
+## L'intégration de Centipède à sa solution de webmapping *Kano*
 ### Les bases du webmapping
 ::: tip Définition Webmapping 
 Correspond à la diffusion de données cartographiques par le biais d'un site web. Les informations affichées sont la réponse de requêtes clientes : on parle d'affichage dynamique.
@@ -77,7 +77,7 @@ Le service WFS permet aux utilisateurs de télécharger des données vectorielle
 Le service CSW du Géoportail permet d’interroger des catalogues de données.
 :::
 
-### Kano et Centipède
+### Le fonctionnement de Kano
 L'architecture de la solution webmapping Kano est articulée autour de 2 systèmes de requêtes imbriqués l'un dans l'autre, avec un point de croisement : le gestionnaire de bases de données MongoDB.
 
 D'un coté, le JOB lance des requête régulières au serveur Centipède pour en récupérer la liste des bases disponibles et la stocker sur MongoDB. De l'autre, l'utilisateur interroge MongoDB (via Kano) pour en extraire la liste des bases précédemment collectée grâce au travail du JOB. 
@@ -89,7 +89,7 @@ Ce schéma récapitule ce système à double requêtes :
         style="display: block; margin: 0 auto" />
 *<center> Réponse à une requête utilisateur sur Kano</center>* 
 
-## La doc Centipède de Kalisio
+## La doc de Kalisio
 La création de cette documentation s'est déroulée en deux étapes :
 - L'élaboration du contenu du site en local;
 - La mise en ligne du site (uploading).
