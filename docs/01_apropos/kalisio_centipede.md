@@ -52,7 +52,7 @@ Les services WMS se composent de 3 requêtes :
 - *GetFeatureInfo* : renvoie des informations sur les objets ayant servi à générer la carte (optionnelle).
 :::
 
-:: details WMTS
+::: details WMTS
 Les services d’images tuilées permettent de mettre à disposition d’utilisateurs distants des images géoréférencées, via une simple requête HTTP.
 
 Ils mettent en œuvre le protocole WMTS (Web Map Tile Service).
@@ -65,15 +65,15 @@ Chaque type de donnée servie (Orthoimagerie, cartes, …) nécessite ainsi le p
 Pour obtenir une image, une requête WMTS comporte donc des paramètres précisant : le type de données (LAYER), la pyramide de tuiles (TILEMATRIXSET) et le maillage (TILEMATRIX) correspondant au niveau de zoom voulu et les coordonnées de la tuile dans ce maillage (TILECOL et TILEROW). ([IGN, 2023](https://geoservices.ign.fr/documentation/services/api-et-services-ogc#2430))
 :::
 
-:: details WCS
+::: details WCS
 Le Web Coverage Service (WCS) est un service d'échanges de données raster complexes. Les données WCS sont souvent utilisées dans le cadre de modélisations, qui font appel à des données raster plus complètes que celles transportées grâce aux services WMS. 
 :::
 
-:: details WFS
+::: details WFS
 Le service WFS permet aux utilisateurs de télécharger des données vectorielles géoréférencées.
 :::
 
-:: details CSW
+::: details CSW
 Le service CSW du Géoportail permet d’interroger des catalogues de données.
 :::
 
