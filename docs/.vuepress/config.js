@@ -17,9 +17,9 @@ module.exports = {
       ],
       sidebar: {
         '/01_apropos/': getAProposSidebar(),
-        '/02_comprendre/': getFonctionnementSidebar(),
+        '/02_comprendre/': getComprendreSidebar(),
         '/03_participer/': getParticiperSidebar(),
-        '/04_exploiter/': getAktnMapSidebar(),
+        '/04_exploiter/': getExploiterSidebar(),
       }
     },
     plugins: [
@@ -43,7 +43,7 @@ module.exports = {
     ] 
   }
 
-  function getFonctionnementSidebar(){
+  function getComprendreSidebar(){
     return [
       'theorie',
       'terrain',
@@ -51,10 +51,10 @@ module.exports = {
     ]
   }
   
-  function getAktnMapSidebar(){
+  function getExploiterSidebar(){
     return [
       'bgnss',
-      'tuto',
+      'webmapping',
     ]
   }
 
