@@ -30,7 +30,7 @@ Pour résoudre cette équation à 3 inconnues, les appareils de positionnement u
 ## Les erreurs d’horloge
 Les satellites, les bases et les rovers ont chacun une horloge qui mesure le temps dans leurs référentiels respectifs. Les décalages d'horloges sont donc inévitables.
 
-Cepedant, la technologie RTK est une méthode de **positionnement différentiel**. Elle fait appel à une base aux coordonnées connues qui communique simultanément avec l’appareil de réception et les satellites.
+Cependant, la technologie RTK est une méthode de **positionnement différentiel**. Elle fait appel à une base aux coordonnées connues qui communique simultanément avec l’appareil de réception et les satellites.
 
 On parle même d’une **double différence**, car la communication est établie au minimum avec deux satellites en simultané. Cette double différence permet d’**éliminer les erreurs de synchronisation d'horloges $\ (\delta t_i ,\delta t_j)$**.  
   
@@ -43,7 +43,7 @@ On parle même d’une **double différence**, car la communication est établie
 ## Les retards à la propagation
 Les retards à la propagation $\tau$ sont liés aux conditions atmosphériques, notamment dans la troposphère et l'ionosphère. Les signaux peuvent être ralentis, engendrant une imprécision de mesure. 
 
-Les retards à la propagation sont estimés par calcul, et considérablement réduits dans le cas de positionnement différentiel avec une ligne de base (distance base - récepteur) inférieure à 50 kilomètres. Le positonnement double différentiel avec une ligne de base inférieure à 50 kilomètres, utilisé pour RTK, est donc très peu impacté par les retards à la propagation.
+Les retards à la propagation sont estimés par calcul, et considérablement réduits dans le cas de positionnement différentiel avec une ligne de base (distance base - récepteur) inférieure à 50 kilomètres. Le positionnement double différentiel avec une ligne de base inférieure à 50 kilomètres, utilisé pour RTK, est donc très peu impacté par les retards à la propagation.
 
 ## La levée algorithmique des ambiguïtés
 L'ambiguïté entière $\ N$ ou ambiguïté de la mesure de phase, est une notion complexe liée au déphasage. 

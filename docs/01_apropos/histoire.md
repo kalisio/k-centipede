@@ -13,13 +13,13 @@ La Cinématique temps réel est donc une technologie de positionnement de préci
 A l’avenir, la précision centimétrique proposée par la technologie RTK sera certainement convoitée par d’autres domaines professionnels, notamment l’aéronautique et l’automobile.
 
 ## RTK et GNSS
-La technologie RTK repose sur le GNSS (*Global Naviguation Satellite System*), qui regroupe l'ensemble des composants utiles au positionnement par satellites. 
+La technologie RTK repose sur le GNSS (*Global Navigation Satellite System*), qui regroupe l'ensemble des composants utiles au positionnement par satellites. 
 
-Le réseau RTK français repose sur 4 systèmes de naviguation internationaux.
+Le réseau RTK français repose sur 4 systèmes de navigation internationaux.
 
 <center>
 
-| Système de naviguation | Pays | Mise en service | 
+| Système de navigation | Pays | Mise en service | 
 | :---------------: |:---------------:|:---------------:|
 | GPS (*Global Positioning System*) | <img src="../assets/USA.png" height="12" alt="USA"> | 1995 |
 | GLONASS | <img src="../assets/Russie.jpg" height="15" alt="Russie"> | 1996, puis 2010 |
@@ -32,7 +32,7 @@ Le réseau RTK français repose sur 4 systèmes de naviguation internationaux.
 ## Les débuts de RTK 
 La technologie RTK fait ses premiers pas sur des engins agricoles aux Etats-Unis dans les années 2000.
 
-Ce n'est qu'en 2014 que le RTK fait son apparition en France, par l'intermédiraire d'entreprises privées comme Terria ou Orphéon.
+Ce n'est qu'en 2014 que le RTK fait son apparition en France, par l'intermédiaire d'entreprises privées comme Terria ou Orphéon.
 Ils proposent à leurs clients leur service de traitement de données menant à la précision centimétrique. Il faut alors compter 500 à 1000€/an d’abonnement par appareil de réception, sans compter les frais d’installation. 
 
 A ses débuts, la technologie RTK représente un investissement important.
