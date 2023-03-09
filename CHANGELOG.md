@@ -1,3 +1,5 @@
+Please refer to GitHub issues for changelog starting from v1.5: https://github.com/kalisio/k-centipede/issues.
+
 ### 1.4.0 (2023-03-09)
 
 ### 1.3.0 (2023-03-09)
