@@ -15,7 +15,7 @@ Ensuite, suivez le [tuto pour assembler votre base](http://rtkbase.eu/assemblage
 
 - Lorsqu'on insère les pièces bleues sur le couvercle, il faut bien les pousser jusqu'à entendre un "clic". Ensuite on peut poser le couvercle, et tourner ces pièces à l'aide d'un gros tournevis plat.
 
-:: danger ATTENTION 
+::: danger ATTENTION 
 Le sélecteur de tension de l'extracteur POE Trendnet TPE-104GS doit être placé sur 5 Volts**. Au-dessus de 5V, on grille les composants.
 :::
 
