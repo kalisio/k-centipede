@@ -5,7 +5,7 @@ Il offre la possibilité aux particuliers comme aux professionnels de profiter d
 
 Le réseau, en pleine expansion, compte déja plus de 350 antennes sur tout le territoire !
 
-<kano token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIn0.2oFJhEv306tbkZfzM1tTfFPFjjs5nVu3DWjo5OvGrFc" />
+<kano token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIn0.CGvJwPPkuiFvNzo3zUBb-_vwD0CKbUfm7w7TkCY-Ts4" />
 
 Ce site vous aidera à comprendre les enjeux du réseau Centipède RTK, son fonctionnement et les opportunités qu’il représente pour l’entreprise Kalisio.
 
