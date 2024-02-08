@@ -27,47 +27,47 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "01_apropos/histoire.html",
-    "revision": "2b72ebeb99e1ace22911efc054948865"
+    "revision": "5ba99fc7b5988769723a960af9205043"
   },
   {
     "url": "01_apropos/introduction.html",
-    "revision": "67f767cc997d0122a69e8d7bd87cf058"
+    "revision": "0a3ab5884eb7fa89081fa68ff8f11ab1"
   },
   {
     "url": "01_apropos/siteweb.html",
-    "revision": "6108f821a9c42e57b8a309b398e1da47"
+    "revision": "79ff160b6566ee56f5dbbb9338b0ae1a"
   },
   {
     "url": "02_comprendre/reseau.html",
-    "revision": "45239bed93e05908abddce6c29cf1fca"
+    "revision": "503741bcf6ca35507c7d65550d25f95a"
   },
   {
     "url": "02_comprendre/terrain.html",
-    "revision": "a6892aef1d12d95a668b81d12fe892a3"
+    "revision": "a8302c783a9b06855436857efbd66496"
   },
   {
     "url": "02_comprendre/theorie.html",
-    "revision": "3ce979b59dcce3144b1a6702d9fcab8c"
+    "revision": "37c8f816988bfbd84562d6769413b17d"
   },
   {
     "url": "03_participer/base.html",
-    "revision": "d493ffa0e4d784f29b5ca7dc6af30dfa"
+    "revision": "de2eb34f2672b364bdbfaed1a720df0f"
   },
   {
     "url": "03_participer/rover.html",
-    "revision": "90d0f6ddf6df6684330772149acf534c"
+    "revision": "6de1531e5b288bd717dafd94fc921009"
   },
   {
     "url": "04_exploiter/bgnss.html",
-    "revision": "a669ee8de5b79ab061b29ab3e4bcf387"
+    "revision": "674208fd2516ec0ef6dd5dc662f6a6fa"
   },
   {
     "url": "04_exploiter/webmapping.html",
-    "revision": "21bb0d31064355304e7230e057191687"
+    "revision": "07ade2753e855088b4ec1cdb3e56d5a4"
   },
   {
     "url": "404.html",
-    "revision": "c0eea2b42e60a5a741aa21a086d0794c"
+    "revision": "ca82c045cb8e739c8f9b14474a5a9625"
   },
   {
     "url": "assets/css/0.styles.1ad307a8.css",
@@ -254,8 +254,8 @@ self.__precacheManifest = [
     "revision": "b75e688b2b94ed7f3aec89ea92c96c6e"
   },
   {
-    "url": "assets/js/app.eb7ae50e.js",
-    "revision": "50dad5e2362c8d7d3db43c9f6779b584"
+    "url": "assets/js/app.c3193139.js",
+    "revision": "b98bde1ad0f9915762d8d82e74c597e6"
   },
   {
     "url": "centipede_icon.png",
@@ -267,7 +267,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "19b14a8314108dbd1ac94f6d26708539"
+    "revision": "5f7822a7e6e3da12750be9119867c66b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
