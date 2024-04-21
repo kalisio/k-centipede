@@ -2,7 +2,7 @@ name: ci
 on: [ push, workflow_dispatch ]
 
 jobs:
-  build:
+  build_job:
     name: Build
     if: ${{ !contains(github.event.head_commit.message, 'skip build') }}
     runs-on: ubuntu-22.04
@@ -15,9 +15,29 @@ jobs:
         run: bash ./scripts/init_runner.sh ${{ github.job }}
       - name: Setup workspace
         env:
-          GITHUB_DEVELOPMENT_PAT: ${{ secrets.GH_DEVELOPMENT_PAT }}
+          GITHUB_DEVELOPMENT_PAT: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
         run: bash ./scripts/setup_workspace.sh
       - name: Build job
         env:
           SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
-        run: bash ./scripts/build.sh -p -r ${{ github.job }}
+        run: bash ./scripts/build_job.sh -p -r ${{ github.job }}
+
+  build_docs:
+    name: Build docs
+    if: ${{ contains(github.event.head_commit.message, 'build doc') }}
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Init runner
+        run: bash ./scripts/init_runner.sh ${{ github.job }}
+      - name: Setup workspace
+        env:
+          GITHUB_DEVELOPMENT_PAT: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
+        run: bash ./scripts/setup_workspace.sh
+      - name: Build docs
+        env:
+          SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
+        run: bash ./scripts/build_docs.sh -p -r ${{ github.job }}
