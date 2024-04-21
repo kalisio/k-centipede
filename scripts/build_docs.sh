@@ -33,5 +33,5 @@ done
 ## Build docs
 ##
 
-build_docs "$ROOT_DIR" "kalisio/krawler" "$PUBLISH"
+build_docs "$ROOT_DIR" "kalisio/k-centipede" "$PUBLISH"
 

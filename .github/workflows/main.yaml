@@ -3,7 +3,7 @@ on: [ push, workflow_dispatch ]
 
 jobs:
   build_job:
-    name: Build
+    name: Build job
     if: ${{ !contains(github.event.head_commit.message, 'skip build') }}
     runs-on: ubuntu-22.04
     steps:
@@ -15,7 +15,7 @@ jobs:
         run: bash ./scripts/init_runner.sh ${{ github.job }}
       - name: Setup workspace
         env:
-          GITHUB_DEVELOPMENT_PAT: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
+          GITHUB_DEVELOPMENT_TOKEN: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
         run: bash ./scripts/setup_workspace.sh
       - name: Build job
         env:
@@ -23,7 +23,7 @@ jobs:
         run: bash ./scripts/build_job.sh -p -r ${{ github.job }}
 
   build_docs:
-    name: Build docs
+    name: Build doc
     if: ${{ contains(github.event.head_commit.message, 'build doc') }}
     runs-on: ubuntu-22.04
     steps:
@@ -35,7 +35,7 @@ jobs:
         run: bash ./scripts/init_runner.sh ${{ github.job }}
       - name: Setup workspace
         env:
-          GITHUB_DEVELOPMENT_PAT: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
+          GITHUB_DEVELOPMENT_TOKEN: ${{ secrets.GH_DEVELOPMENT_TOKEN }}
         run: bash ./scripts/setup_workspace.sh
       - name: Build docs
         env:
