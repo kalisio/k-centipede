@@ -14,7 +14,7 @@ hero:
 
 <ClientOnly>
 	<p align="center"><br/>
-		<center><h6>Trusted by</h6></center>
+		<center><h6>Supported by</h6></center>
 		<a href="https://www.inrae.fr/"><img src="./assets/inrae.png" width="200"/></a><br/>
     <a href="https://www.ensat.fr/fr/index.html"><img src="./assets/ensat.png" width="200"/></a><br/>
 		<center><h6>Sponsored by</h6></center>
