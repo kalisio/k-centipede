@@ -10,7 +10,7 @@ La création de cette documentation s'est déroulée en deux étapes :
 
 Pour ce faire, j'ai suivi le protocole suivant :
 
-<center><mermaid> 
+```mermaid
 flowchart LR
     %%%%% OUTILS %%%%%
     subgraph A [USER]
@@ -35,11 +35,11 @@ flowchart LR
     B---->|trigger|J
     J-->|deploy|D
     D2-->|deploy|E
-</mermaid></center>
+```
 
 Ce second schéma représente le fonctionnement détaillé du logiciel *Travis* dans le cas du projet k-centipede porté par Kalisio :
 
-<center><mermaid>
+```mermaid
 flowchart LR
     subgraph A [TRAVIS]
         J([JOB])-.->DO([DOCS])
@@ -81,4 +81,4 @@ flowchart LR
     C1-->C2
     C2-->C3
     DO-->C1
-</mermaid></center> 
+```

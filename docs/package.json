@@ -1,15 +1,23 @@
 {
   "name": "docs",
+  "type": "module",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vuepress": "^1.7.1",
-    "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-theme-kalisio": "https://github.com/kalisio/vuepress-theme-kalisio#v0.1.0"
+    "keycloak-js": "^23.0.4",
+    "mermaid": "^10.9.0",
+    "quasar": "^2.14.3",
+    "vitepress": "^1.0.0-rc.40",
+    "vitepress-plugin-mermaid": "^2.0.16",
+    "vitepress-theme-kalisio": "https://github.com/kalisio/vitepress-theme-kalisio"
   },
   "dependencies": {
-    "mermaid.cli": "^0.5.1"
+    "lodash": "^4.17.21",
+    "markdown-it-mathjax3": "^4.3.2",
+    "moment": "^2.30.1",
+    "vue": "latest"
   }
 }
