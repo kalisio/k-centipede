@@ -19,7 +19,10 @@ export default withMermaid({
   themeConfig: {
     logo: './assets/centipede_icon.png',
     domain: 'dev.kalisio.xyz',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/kalisio/k-centipede' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/kalisio/k-centipede' },
+      { icon: 'linkedin', link: 'https://fr.linkedin.com/company/kalisio' },
+      { icon: 'twitter', link: 'https://twitter.com/Kalisio3' }],
     nav: [
       {text: 'A propos', link: '/01_apropos/introduction' },
       {text: 'Comprendre', link: '/02_comprendre/theorie' },
