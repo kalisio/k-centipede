@@ -34,4 +34,3 @@ done
 ##
 
 build_docs "$ROOT_DIR" "kalisio/k-centipede" "$PUBLISH"
-
