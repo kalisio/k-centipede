@@ -5,7 +5,6 @@
 
 A [Krawler](https://kalisio.github.io/krawler/) based service to get the antennas status of the [RTK Centipede Network](https://docs.centipede.fr/)
 
-
 ## Description
 
 The **k-centipede** job allow to scrape antennas status from the [centipede RTK server](https://centipede.fr/). The downloaded data are stored within a [MongoDB](https://www.mongodb.com/) database and more precisely in 2 collections: 
