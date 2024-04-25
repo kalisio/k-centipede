@@ -1833,7 +1833,7 @@ vitepress-plugin-mermaid@^2.0.16:
 
 "vitepress-theme-kalisio@https://github.com/kalisio/vitepress-theme-kalisio":
   version "0.1.0"
-  resolved "https://github.com/kalisio/vitepress-theme-kalisio#ea6900e82c70fcb7799c51fc8e938f582015ed24"
+  resolved "https://github.com/kalisio/vitepress-theme-kalisio#385444bc211505d4ac53e203d71e19802daf2946"
 
 vitepress@^1.0.0-rc.40:
   version "1.1.3"
