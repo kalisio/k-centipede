@@ -1,8 +1,10 @@
 import mathjax3 from 'markdown-it-mathjax3'
 import { withMermaid } from "vitepress-plugin-mermaid";
-
-
-export default withMermaid({
+/*import { defineConfig } from 'vitepress'
+export default defineConfig({
+  */
+ 
+export default withMermaid ({
   markdown: {
     config: (md) => {
       md.use(mathjax3);
