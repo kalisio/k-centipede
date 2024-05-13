@@ -53,7 +53,7 @@ Je vous conseille donc d'utiliser *Bluetooth GNSS*, qui est moins complète mais
 ## Les 4 voies de communication
 ### Connexion indirecte à la base via le caster public Centipède 
 
-<img src="../assets/voie_com_01.png" 
+<img src="../public/voie_com_01.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
@@ -73,7 +73,7 @@ Le format de la position corrigée envoyée par le rover peut être modulé. Dan
 
 ### Connexion indirecte à la base via le caster local
 
-<img src="../assets/voie_com_02.png" 
+<img src="../public/voie_com_02.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
@@ -85,7 +85,7 @@ Grâce à un client NTRIP, un appareil client se connecte au caster local et y e
 
 ### Connexion directe vie TPC ou Radio
 
-<img src="../assets/voie_com_03.png" 
+<img src="../public/voie_com_03.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
@@ -95,7 +95,7 @@ Elle permet de transférer directement les données de la base au format RTCM.3 
 
 ### PostProcessing Kinematic (PPK)
 
-<img src="../assets/voie_com_04.png" 
+<img src="../public/voie_com_04.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 

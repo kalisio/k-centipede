@@ -4,7 +4,7 @@ hero:
   name: Centipède RTK
   tagline: La collaboration au service de la précision
   image:
-    src: ./assets/centipede.png
+    src: centipede.png
     alt: kalisio-centipede
   actions:
     - theme: brand

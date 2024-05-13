@@ -12,7 +12,7 @@ Ce site vous aidera à comprendre les enjeux du réseau Centipède RTK, son fonc
 ::: tip Le projet Kassandre
 Ces travaux s'inscrivent dans le cadre du projet régional [Kassandre](https://kalisio.com/blog/9-kalisio-fr/84-ad-occ-accompagnera-kalisio-sur-son-ambitieux-programme-r-d), soutenu par l'Agence de Développement Economique de la Région Occitanie ([AD'OCC](https://www.agence-adocc.com/)).
 
-<img src='../assets/adocc.jpg' 
+<img src='../public/adocc.jpg' 
         alt="Impossible de visualiser le contenu"
         style="display: slock; margin: 0 auto" />
 

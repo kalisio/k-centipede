@@ -34,7 +34,7 @@ Cependant, la technologie RTK est une méthode de **positionnement différentiel
 
 On parle même d’une **double différence**, car la communication est établie au minimum avec deux satellites en simultané. Cette double différence permet d’**éliminer les erreurs de synchronisation d'horloges $\ (\delta t_i ,\delta t_j)$**.  
   
-<img src="../assets/dble_diff.png" 
+<img src="../public/dble_diff.png" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />  
 ***<center> Principe de la double différence utilisée pour le positionnement RTK ([ENSG, 2013](http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf)) </center>***

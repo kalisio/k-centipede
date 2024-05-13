@@ -1,6 +1,6 @@
 # L’organisation du réseau
 
-<img src="../assets/schema_reseau_RTK.jpg" 
+<img src="../public/schema_reseau_RTK.jpg" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 

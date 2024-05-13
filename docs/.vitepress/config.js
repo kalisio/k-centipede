@@ -16,10 +16,10 @@ export default withMermaid ({
   ignoreDeadLinks: true,
   head: [
     ['link', { href: 'https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css', rel: 'stylesheet' }],
-    ['link', { rel: 'icon', href: `./assets/centipede_icon.png` }]
+    ['link', { rel: 'icon', href: `centipede_icon.png` }]
   ],
   themeConfig: {
-    logo: './assets/centipede_icon.png',
+    logo: 'centipede_icon.png',
     domain: 'dev.kalisio.xyz',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/kalisio/k-centipede' },
@@ -49,8 +49,8 @@ export default withMermaid ({
       copyright: 'MIT Licensed | Copyright © 2017-20xx Kalisio'
     },
     trustLogos: [
-        { imageLink: './assets/inrae.png', link: 'https://www.inrae.fr/' },
-        { imageLink: './assets/ensat.png', link: 'https://www.ensat.fr/fr/index.html' }
+        { imageLink: 'inrae.png', link: 'https://www.inrae.fr/' },
+        { imageLink: 'ensat.png', link: 'https://www.ensat.fr/fr/index.html' }
     ],
     maps: {
       jwt: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIn0.CGvJwPPkuiFvNzo3zUBb-_vwD0CKbUfm7w7TkCY-Ts4'

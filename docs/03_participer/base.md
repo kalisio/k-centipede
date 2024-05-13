@@ -20,7 +20,7 @@ Le sélecteur de tension de l'extracteur POE Trendnet TPE-104GS doit être plac�
 :::
 
 
-<img src="../assets/base_01.jpg" 
+<img src="../public/base_01.jpg" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 *<center>Assemblage final de la base RTK</center>*
@@ -37,7 +37,7 @@ Les facteurs suivants doivent être pris en compte:
 - Visibilité des satellites : pas d’obstacles (bâtiments, arbres, murs …) au-dessus des 10 premiers degrés par rapport au plan horizontal de l’antenne
 - Fixer l’antenne en hauteur, où la vue est dégagée
 
-<img src="../assets/base_02.jpg" 
+<img src="../public/base_02.jpg" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 ***<center> Schéma explicatif de la visibilité nécessaire pour l’antenne ([Levés géodésiques du Canada, 2017](https://ressources-naturelles.canada.ca/sites/www.nrcan.gc.ca/files/earthsciences/pdf/MeilleuresPratiques_Station_de_Reference_GNSS.pdf)).</center>***
@@ -47,7 +47,7 @@ Les facteurs suivants doivent être pris en compte:
 - Éviter la proximité avec des sources de radiofréquences. Si impossible, à renseigner dans le registre du site;
 - Alimentation électrique et moyens de communication à proximité  (accès à Internet via un câble ethernet).
 
-<img src="../assets/base_03.jpg" 
+<img src="../public/base_03.jpg" 
         alt="Impossible de visualiser le contenu" 
         style="display: block; margin: 0 auto" />
 
