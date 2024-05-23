@@ -24,7 +24,7 @@ jobs:
 
   build_docs:
     name: Build doc
-    if: ${{ contains(github.event.head_commit.message, 'build doc') }}
+    if: ${{ startsWith(github.event.head_commit.message, 'docs:') || contains(github.event.head_commit.message, 'build doc') }}
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repo
