@@ -1,7 +1,7 @@
 {
   "name": "k-centipede",
   "description": "",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "homepage": "https://github.com/kalisio/k-centipede",
   "type": "module",
   "keywords": [
@@ -34,8 +34,7 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "@kalisio/krawler": "2.6.0"
   }
