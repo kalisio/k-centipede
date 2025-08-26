@@ -1,7 +1,7 @@
 import _ from 'lodash'
 
-const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/centipede'
-const ttl = parseInt(process.env.TTL) || (7 * 24 * 60 * 60)  // duration in seconds
+const DB_URL = process.env.DB_URL || 'mongodb://127.0.0.1:27017/centipede'
+const TTL = parseInt(process.env.TTL) || (7 * 24 * 60 * 60)  // duration in seconds
 
 export default {
   id: 'centipede',
@@ -94,9 +94,12 @@ export default {
     },
     jobs: {
       before: {
+          printEnv: {
+          TTL
+        },
         createStores: { id: 'memory' },
         connectMongo: {
-          url: dbUrl,
+          url: DB_URL,
           // Required so that client is forwarded from job to tasks
           clientPath: 'taskTemplate.client'
         },
@@ -114,7 +117,7 @@ export default {
           clientPath: 'taskTemplate.client',
           collection: 'centipede-pings',
           indices: [
-            [{ time: 1 }, { expireAfterSeconds: ttl }], // days in s
+            [{ time: 1 }, { expireAfterSeconds: TTL }], // days in s
             [{ time: 1, 'properties.id': 1 }, { unique: true }],
             { 'properties.ping': 1 },
             { geometry: '2dsphere' }
