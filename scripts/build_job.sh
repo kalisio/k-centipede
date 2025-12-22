@@ -14,10 +14,14 @@ WORKSPACE_DIR="$(dirname "$ROOT_DIR")"
 
 PUBLISH=false
 CI_STEP_NAME="Build job"
-while getopts "pr:" option; do
+RUN_SONAR=false
+while getopts "spr:" option; do
     case $option in
         p) # publish
             PUBLISH=true
+            ;;
+        s) # enable SonarQube analysis and publish code quality & coverage results
+            RUN_SONAR=true
             ;;
         r) # report outcome to slack
             CI_STEP_NAME=$OPTARG
