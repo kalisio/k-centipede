@@ -12,7 +12,7 @@ THIS_DIR=$(dirname "$THIS_FILE")
 ### Github Actions
 
 init_github_build_job() {
-    install_reqs age sops
+    install_reqs age sops sonar_scanner_cli
 }
 
 init_github_build_docs() {
