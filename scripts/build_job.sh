@@ -17,11 +17,11 @@ CI_STEP_NAME="Build job"
 RUN_SONAR=false
 while getopts "spr:" option; do
     case $option in
-        p) # publish
-            PUBLISH=true
-            ;;
         s) # enable SonarQube analysis and publish code quality & coverage results
             RUN_SONAR=true
+            ;;
+        p) # publish
+            PUBLISH=true
             ;;
         r) # report outcome to slack
             CI_STEP_NAME=$OPTARG
@@ -38,7 +38,7 @@ done
 
 load_env_files "$WORKSPACE_DIR/development/common/kalisio_dockerhub.enc.env"
 load_value_files "$WORKSPACE_DIR/development/common/KALISIO_DOCKERHUB_PASSWORD.enc.value"
-. "$WORKSPACE_DIR/development/workspaces/jobs/jobs.sh" k-firms
+. "$WORKSPACE_DIR/development/workspaces/jobs/jobs.sh" k-centipede
 
 ## Build container
 ##
