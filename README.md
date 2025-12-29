@@ -2,8 +2,9 @@
 
 [![Latest Release](https://img.shields.io/github/v/tag/kalisio/k-centipede?sort=semver&label=latest)](https://github.com/kalisio/k-centipede/releases)
 [![CI](https://github.com/kalisio/k-centipede/actions/workflows/main.yaml/badge.svg)](https://github.com/kalisio/k-centipede/actions/workflows/main.yaml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Quality Gate Status](https://sonar.portal.kalisio.com/api/project_badges/measure?project=kalisio-k-centipede&metric=alert_status&token=sqb_21abfb9e1eb8ae01993735f45287c88ecdd051e2)](https://sonar.portal.kalisio.com/dashboard?id=kalisio-k-centipede)
 [![Maintainability Issues](https://sonar.portal.kalisio.com/api/project_badges/measure?project=kalisio-k-centipede&metric=software_quality_maintainability_issues&token=sqb_21abfb9e1eb8ae01993735f45287c88ecdd051e2)](https://sonar.portal.kalisio.com/dashboard?id=kalisio-k-centipede)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A [Krawler](https://kalisio.github.io/krawler/) based service to get the antennas status of the [RTK Centipede Network](https://docs.centipede.fr/)
 
